@@ -1,0 +1,2 @@
+echo "\033[0;33mMAC address of Wi-Fi interface:\033[0m"
+ifconfig en1 | grep ether | cut -d' ' -f2

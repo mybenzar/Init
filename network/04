@@ -1,0 +1,2 @@
+echo "\033[0;33mDefault Gateway (IPV4 and IPV6):\033[0m"
+netstat -nr | awk '/default/ {print$2}'

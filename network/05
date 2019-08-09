@@ -1,0 +1,2 @@
+echo "\033[0;33mIP addresses of DNS server slash16.org:\033[0m"
+dig +short slash16.org

@@ -1,0 +1,2 @@
+echo "\033[0;33mUsing Google's DNS to resolve slash16.org:\033[0m"
+nslookup slash16.org 8.8.8.8

@@ -1,0 +1,4 @@
+echo "\033[0;33mEthernet Broadcast:\033[0m"
+ifconfig en0 | awk '/broadcast/ {print$6}'
+echo "\033[0;33mIP Adresses of same sub-network:\033[0m"
+arp -a
